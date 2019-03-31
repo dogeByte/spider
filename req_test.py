@@ -10,7 +10,7 @@ import requests
 import urllib.request
 from bs4 import BeautifulSoup
 
-rsp = requests.get('https://www.tuao8.com/post/1688.html?page=3')
+rsp = requests.get('https://www.baidu.com/')
 print(rsp)
 soup = BeautifulSoup(rsp.text, 'html.parser')
 
